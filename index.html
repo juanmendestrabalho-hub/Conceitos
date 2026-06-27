@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevNotes AI</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1>DevNotes</h1>
+    <div>
+      <button id="newNoteBtn">Nova Nota</button>
+      <button id="themeToggle">🌙</button>
+    </div>
+  </header>
+
+  <main class="layout">
+
+    <aside class="sidebar">
+      <input type="text" id="searchInput" placeholder="Buscar...">
+      <ul id="notesList"></ul>
+    </aside>
+
+    <section class="editor">
+      <textarea id="editor"></textarea>
+    </section>
+
+    <section class="preview" id="preview"></section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
